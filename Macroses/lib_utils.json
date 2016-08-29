@@ -1,0 +1,12 @@
+{
+    "ob_board": "0", 
+    "timer_guid": "", 
+    "name": "lib_utils", 
+    "custom_event_guid": "", 
+    "class_name": "", 
+    "is_button": "0", 
+    "guid": "0955b0fd-e32c-4577-941f-4520d5352a47", 
+    "type": "library", 
+    "page": "", 
+    "description": "General useful functions."
+}

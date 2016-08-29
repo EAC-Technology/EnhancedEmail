@@ -1,0 +1,12 @@
+{
+    "ob_board": "0", 
+    "timer_guid": "", 
+    "name": "lib_parser", 
+    "custom_event_guid": "", 
+    "class_name": "", 
+    "is_button": "0", 
+    "guid": "03c81a5b-c574-4640-8849-4257c0eb455a", 
+    "type": "library", 
+    "page": "", 
+    "description": "The library for the parser Object."
+}

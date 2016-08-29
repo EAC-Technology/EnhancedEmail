@@ -1,0 +1,12 @@
+{
+    "ob_board": "3", 
+    "timer_guid": "", 
+    "name": "Authentified email", 
+    "custom_event_guid": "", 
+    "class_name": "", 
+    "is_button": "1", 
+    "guid": "ee86d96d-d958-4b9e-b749-19d50a4226ec", 
+    "type": "button", 
+    "page": "home", 
+    "description": ""
+}

@@ -1,0 +1,12 @@
+{
+    "ob_board": "3", 
+    "timer_guid": "", 
+    "name": "Secured", 
+    "custom_event_guid": "", 
+    "class_name": "", 
+    "is_button": "1", 
+    "guid": "102b2d24-af1b-4418-b37f-a5063ac7e088", 
+    "type": "button", 
+    "page": "home", 
+    "description": ""
+}

@@ -1,0 +1,12 @@
+{
+    "ob_board": "0", 
+    "timer_guid": "", 
+    "name": "lib_quicksort", 
+    "custom_event_guid": "", 
+    "class_name": "", 
+    "is_button": "0", 
+    "guid": "992934dc-978f-4895-a4d7-d7d9e1a1fe0c", 
+    "type": "library", 
+    "page": "", 
+    "description": "Fast algorithm to sort Array."
+}

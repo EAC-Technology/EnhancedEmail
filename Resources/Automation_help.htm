@@ -1,0 +1,2156 @@
+﻿<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=unicode">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:106%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+p.sc3, li.sc3, div.sc3
+	{mso-style-name:sc3;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:blue;}
+p.sc4, li.sc4, div.sc4
+	{mso-style-name:sc4;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	color:gray;}
+p.sc6, li.sc6, div.sc6
+	{mso-style-name:sc6;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	font-weight:bold;}
+p.msochpdefault, li.msochpdefault, div.msochpdefault
+	{mso-style-name:msochpdefault;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Calibri",sans-serif;}
+p.msopapdefault, li.msopapdefault, div.msopapdefault
+	{mso-style-name:msopapdefault;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:106%;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;}
+.MsoChpDefault
+	{font-size:10.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:106%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 70.85pt 70.85pt 70.85pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=FR>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:24.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Automation</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:13.5pt;
+font-family:"Segoe UI",sans-serif;color:black'>Commandes pour Automation v2.0 -
+24/03/2015</span></b></p>
+
+<div class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal'><span style='font-size:12.0pt;font-family:
+"Times New Roman",serif'>
+
+<hr size=2 width="100%" noshade style='color:black' align=center>
+
+</span></div>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>SOMMAIRE</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>1.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp; </span><b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Variables</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>2.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp; </span><b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Heures &amp; Dates</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>3.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp; </span><b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Conditions &amp; Exécutions</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>4.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp; </span><b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Opérations sur les fichiers</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>5.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp; </span><b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Utilisateurs &amp; droits</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>6.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp; </span><b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Fonctions Spécifiques</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>7.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp; </span><b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Fonctions ProSuite</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>8.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp; </span><b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Fonctions pour le formulaire</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;&nbsp; 8.1</span><span style='font-size:7.0pt;font-family:
+"Times New Roman",serif;color:black'> &nbsp;&nbsp;&nbsp; </span><b><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Les
+fonctions pour créer le formulaire</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;&nbsp; 8.2</span><span style='font-size:7.0pt;font-family:
+"Times New Roman",serif;color:black'> &nbsp;&nbsp;&nbsp; </span><b><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Les
+fonctions de traitement du formulaire</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>9.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+color:black'>&nbsp;&nbsp;&nbsp;&nbsp; </span><b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Timer</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;&nbsp; 9.1</span><span style='font-size:7.0pt;font-family:
+"Times New Roman",serif;color:black'> &nbsp;&nbsp;&nbsp; </span><b><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Les
+variabl</span></b><b><span style='font-size:9.0pt;color:black'>es</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><b><span style='font-size:9.0pt;color:black'>&nbsp;&nbsp; </span></b><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>9.2</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif;color:black'>
+&nbsp;&nbsp;&nbsp; </span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Les fonctions de filtrage</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><b><span style='font-size:9.0pt;color:black'>&nbsp;&nbsp; </span></b><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>9.3</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif;color:black'>
+&nbsp;&nbsp;&nbsp; </span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Les fonctions de gestion des timers</span></b></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>10.</span><span style='font-size:7.0pt;font-family:"Times New Roman",serif;
+color:black'>&nbsp; </span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Analyse</span></b></p>
+
+<div class=MsoNormal align=center style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-align:center;line-height:normal'><span style='font-size:12.0pt;font-family:
+"Times New Roman",serif'>
+
+<hr size=2 width="100%" noshade style='color:#BDC0BD' align=center>
+
+</span></div>
+
+<p class=MsoNormal style='line-height:normal'><a name=chap1><b><u><span
+style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:black'>1)
+Variables</span></u></b></a></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><b><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Affect(variable,valeur) :</span></b><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'> </span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>variable</i>&nbsp;
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>variable, </span><i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'>valeur</span></i><span style='font-size:
+9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>tout
+type</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: associée une valeur à une variable.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>Affect</b>(&quot;client&quot;,&quot;sté VDOM&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Chaine(variable) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>variable</i>&nbsp;
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>variable</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> ou</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>
+(&quot;chaine&quot;,&quot;numeric&quot;,&quot;date&quot;,&quot;boolean&quot;)<br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Convertir la valeur de la variable vers une chaine de
+caractères.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+Chaine(unNombre)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>ConvertirVers(variable,type) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>variable</i>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,
+</span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>type</span></i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> </span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>(&quot;chaine&quot;,&quot;numeric&quot;,&quot;date&quot;,&quot;boolean&quot;)</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Permet si possible de convertir le type de départ de la variable
+vers un autre type, en général une chaine de caractères vers un type
+spécifique. Utile notamment pour utiliser les données transmises par un
+formulaire.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+Affect(&quot;dateExpiration&quot;,<b>ConvertirVers</b>(Formulaire(&quot;expiration&quot;),&quot;date&quot;))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Dictionaire(nom,clef,valeur,champliste,option)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>nom</i>&nbsp;
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine, </span><i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'>clef</span></i><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'> </span><span style='font-size:
+9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine, </span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>valeur</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,numeric,date,boolean</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>, <i>champliste</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>(oui,non)</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>, </span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>option</span></i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> </span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>(&quot;clef&quot;,&quot;valeur&quot;)</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:blue'><br>
+Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet de stocker et de récupérer des valeurs dans
+un dictionnaire global. Elle permet aussi de coupler le dictionnaire avec un
+champliste pour une alimentation automatisée par exemple. Le comportement en
+fonction des paramètres, est le suivant :</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Si la chaine passée au
+     paramètre <b>valeur </b>est vide: &quot;&quot;, la clef est supprimée du
+     dictionnaire.</span></li>
+ <li class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Si le paramètre <b>champliste
+     </b>est à </span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+     color:red'>oui </span></b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+     color:black'>la liste déroulante retournée par la fonction ChampListe(...)
+     ayant comme nom le même que celui du dictionnaire sera automatiquement
+     alimenté par celui-ci.</span></li>
+ <li class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Cette alimentation peut-être
+     faite soit pas la <b>clef </b>soit par la <b>valeur, </b>en fonction du
+     paramètre <b>option</b>. </span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>REMARQUE : </span></u><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Lorsque le champ liste est alimenté par le dictionnaire, celle-ci
+ne peut plus être éditée, si une asymétrie apparaît entre le dictionnaire et la
+liste, celle-ci est automatiquement réinitialisée avec les données du
+dictionnaire.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Un dictionnaire dont toutes les
+clefs sont supprimées, est lui-même supprimé automatiquement.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+Dictionnaire(&quot;societe&quot;,&quot;342 547 654&quot;,&quot;ma
+companie&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>masociete =
+Dictionnaire(&quot;societe&quot;,&quot;342 547 654&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Dim(variable) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>variable</i>&nbsp;
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>variable</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: déclare une variable.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>Dim</b>(&quot;client&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><a name=chap2><b><u><span
+style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:black'>2)
+Heures &amp; Dates</span></u></b></a></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Now() :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;Aucun<br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne la date courante et l'heure</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Date() :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Retourne la date courante sans l'heure</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Jour(date) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>date</i>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>Date</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne le jour de la date passée en paramètre.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Mois(date) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>date</i>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>Date</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne le mois de la date passée en paramètre.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Annee(date) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>date</i>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>Date</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne l'année de la date passée en paramètre.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Todate(yyyy,mm,dd) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>yyyy</i>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>numérique</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>mm</i>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>numérique,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>dd</i>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>numérique</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: convertit les trois nombres en une valeur de type date, ou yyyy
+est l'année, mm le mois et dd le jour.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><a name=chap3><b><u><span
+style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:black'>3)
+Conditions</span></u></b></a></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>If(condition,si_vrai,si_faux) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>condition</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>exp
+booléenne</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:darkorange'>,&nbsp;</span><i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'>si_vrai</span></i><span style='font-size:
+9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>tout
+type</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:darkorange'>,&nbsp;</span><i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'>si_faux</span></i><span style='font-size:
+9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>tout
+type</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction retourne une valeur en fonction de l'état de la condition
+qui se doit de retourner une valeur booléen true ou false. Si la valeur
+retournée est &quot;goto ETIQUETTE&quot; l'interpréteur de commande se
+branchera à l'étiquette définie, celle-ci doit se présenter dans la séquence de
+commande de la façon suivante&nbsp;<b>:ETIQUETTE.&nbsp;</b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>if</b>(opFile=&quot;ADD&quot;,&quot;goto ADD&quot;,&quot;&quot;)<br>
+<br>
+:ADD<br>
+&nbsp;&nbsp;&nbsp;affect(&quot;corpsTXT&quot;,&quot;Vous avez reçu un nouveau
+Fax&quot;)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><a name=chap4><b><u><span style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;
+color:black'>4) Opérations sur les fichiers<br>
+</span></u></b></a><b><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+AnnulerSuppression() :</span></b><span style='font-size:12.0pt;font-family:
+"Times New Roman",serif'> </span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;Aucun<br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: S'utilise en conjonction avec l'évènement <b>DELETE </b>après une
+commande <b>Supprimer()</b>. Cette fonction permet d'annuler la suppression du
+document.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>CheminFichier() :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> Aucun<br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne le chemin du fichier courant.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><b><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>DeplacerVers(chemin) :</span></b><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'> </span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>chemin</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Déplace le fichier sélectionné vers l'emplacement indiqué par
+chemin. Si celui-ci n'existe pas, il est alors créé.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>DeplacerVers</b>(&quot;/Archive/Client/2004&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Fichier_nom() :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;Aucun<br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne le nom du fichier.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Fichier_lien() :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;Aucun<br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne une chaine représentant le code HTML d'un lien vers le
+fichier</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Image(chemin_image,hauteur,largeur)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>chemin_image</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>hauteur&nbsp;</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>optionnel
+numérique,</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:darkorange'>&nbsp;</span><i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'>largeur</span></i><span style='font-size:
+9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>optionnel
+numérique</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction retourne une chaine HTML représentant l'affichage
+d'une image. Le paramètre chemin image doit être le chemin absolu (depuis la
+racine) de l'image dans ProShare, les 2 autres paramètres permettent de
+contraindre la dimension de l'image.<b>&nbsp;</b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+affect(&quot;imageLogo&quot;,<b>image</b>(&quot;/resources/logo-transparent.png&quot;,60,60))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>LienVersFichier(chemin_fichier,label_lien)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>chemin_fichier</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine,</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:darkorange'> </span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>label_lien&nbsp; </span></i><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction retourne une chaine HTML représentant un lien
+public (de type SmartFolder) vers un fichier stocké dans ProShare.&nbsp; Il
+permet notamment de créer des mails contenant un lien vers un fichier
+téléchargeable.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+affect(&quot;LienPublic&quot;,<b>LienVersFichier</b>(&quot;/resources/catalogue.pdf&quot;,&quot;notre
+catalogue&quot;))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>NomFichier(extension) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>extension</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>oui,non</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne le nom du fichier courant.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><b><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Renommer(nouveau_nom) :</span></b><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'> </span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramétre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>nouveau_nom</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Permet de renommer le fichier courant avec la chaine passée en
+paramètre.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Renommer</span></b><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>(&quot;Facture
+pour le client &quot; + Formulaire(&quot;client&quot;) +&quot; du
+&quot;+date())</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Supprimer() :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;Aucun<br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Supprime le fichier en cours de traitement</span></p>
+
+<p class=MsoNormal style='line-height:normal'><a name=chap5><b><u><span
+style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:black'>5)
+Utilisateurs &amp; droits</span></u></b></a></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><b><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>GestionDesDroits(utilisateur,droits) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'><br>
+Paramètres :</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;<i>utilisateur</i>&nbsp;&nbsp;</span><span style='font-size:
+9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>droits</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>(&quot;lecture&quot;,&quot;lecture/modification&quot;)</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet de supprimer les droits courants du
+fichier en cours de traitement et de les remplacer par des droits en&nbsp;<b>lecture</b>&nbsp;ou&nbsp;<b>lecture/modification</b>&nbsp;des
+utilisateurs passés en paramètre. La liste des utilisateurs passée en paramètre
+doit être sous la forme d'une liste d'identifiants internes (guid) séparés par
+&quot;;&quot;. Pour obtenir cette liste, les fonctions&nbsp;<b>UtilisateurEnCours()</b>,&nbsp;<b>UtilisateursDuRépertoire()</b>&nbsp;et&nbsp;<b>TrouverLesUtilisateurs()</b>&nbsp;doivent
+être utilisées.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>GestionDesDroits</b>(UtilisateurEnCours(),&quot;lecture/modification&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>ListeDesUtilisateurs(nom_groupe)
+:</span></b><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:mediumblue'><br>
+Paramètre :</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> <i>nom_groupe </i></span><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:firebrick'>optionnel chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne la liste des identifiants internes (guid) des
+utilisateurs enregistés dans ProAdmin<b>.</b></span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Si aucun paramètre :
+     retourne toute la liste des utilisateurs</span></li>
+ <li class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Si un paramètre : retourne
+     la liste des utilisateurs du groupe passé en paramètre.</span></li>
+</ul>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><b><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>TrouverUtilisateurs(loginList) :</span></b><span style='font-size:
+12.0pt;font-family:"Times New Roman",serif'> </span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'><br>
+Paramètre :</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;<i>loginList</i>&nbsp;</span><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction convertit une liste de login en une liste
+d'identifiants internes (guid).</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+GestionDesDroits(<b>TrouverUtilisateurs</b>(&quot;monlogin&quot;),&quot;lecture&quot;)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><b><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Utilisateur(guid,champ) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'><br>
+Paramètres :</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;<i>guid</i>&nbsp;&nbsp;</span><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>champ</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>(&quot;prénom&quot;,&quot;nom
+de famille&quot;,&quot;nom&quot;,&quot;email&quot;,&quot;téléphone&quot;)</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne des informations sur un utilisateur enregistré dans
+ProAdmin. L'identifiant de l'utilisateur est fourni dans le paramètre guid et
+l'information à retourner par champ, qui peut prendre les valeurs suivantes :</span></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:10.0pt;font-family:Symbol;color:black'>·</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Prénom :</span></b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> Retourne la valeur qui correspond au prénom</span></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:10.0pt;font-family:Symbol;color:black'>·</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Nom de famille :</span></b><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'> Retourne le nom de famille</span></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:10.0pt;font-family:Symbol;color:black'>·</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Nom :</span></b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> Retourne le nom complet sous la forme prénom nom de famille</span></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:10.0pt;font-family:Symbol;color:black'>·</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Email :</span></b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> Retourne l'email</span></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:10.0pt;font-family:Symbol;color:black'>·</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Téléphone :</span></b><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'> Retourne le champ téléphone</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>Utilisateur</b>(Formulaire(&quot;commercial&quot;),&quot;nom&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>UtilisateursDuRepertoire(chemin,type)
+:</span></b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:mediumblue'><br>
+<br>
+Paramètres :</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;<i>chemin</i>&nbsp;&nbsp;</span><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:firebrick'>chaine, &nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>type</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;optionnel&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>(&quot;tous&quot;,&quot;utilisateurs&quot;,&quot;groupes&quot;)&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:blue'><br>
+Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne une liste d'identifiants (guid) représentant l'ensemble
+des utilisateurs ayant le droit de lecture sur le répertoire passé en
+paramètres. Le paramètre type permet de choisir ceux qui seront retournés :</span></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:10.0pt;font-family:Symbol;color:black'>·</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Tous :</span></b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;La fusion des groupes et des utilisateurs.</span></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:10.0pt;font-family:Symbol;color:black'>·</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Utilisateurs :</span></b><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'>&nbsp;Seuls les utilisateurs explicitement
+définis.</span></p>
+
+<p class=MsoNormal style='margin-left:26.25pt;text-indent:-18.0pt;line-height:
+normal'><span style='font-size:10.0pt;font-family:Symbol;color:black'>·</span><span
+style='font-size:7.0pt;font-family:"Times New Roman",serif;color:black'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Groupes :</span></b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;La fusion des utilisateurs des groupes.</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><u><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:purple'>Exemple :&nbsp;</span></u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'><br>
+SendMail(<b>UtilisateursDuRepertoire</b>(&quot;../to&quot;,&quot;tous&quot;),&quot;Vous
+avez une notification !&quot;,message)</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:13.5pt;
+font-family:"Segoe UI",sans-serif;color:black'>UtilisateurEnCours() :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>Aucun</i>&nbsp;<br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne l'identifiant de l'utilisateur connecté.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><a name=chap6><b><u><span
+style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:black'>6)
+Fonctions spécifiques</span></u></b></a></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Abs(value) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>value</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>numéric</span><span style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne la valeur absolue d'une valeur. </span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+Affect(&quot;montantAbsolue&quot;,<b>Abs</b>(montantAbsolue))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>BoutonVisible(visible,guid) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>visible</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>(oui,non), </span><i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'>guid</span></i><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'> optionnel&nbsp; </span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet de rendre visible ou invisible un bouton
+ou pas.&nbsp; Le premier paramètre est une valeur booléenne qui si, elle est à oui
+affiche le bouton et inversement. Le bouton affecté est celui de la règle
+courante. Pour agir sur un autre bouton, il faut utiliser le deuxième paramètre
+guid. </span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span lang=EN-GB
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:purple'>Exemple
+:&nbsp;</span></u><span lang=EN-GB style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+<b>BoutonVisible</b>(WF_State=&quot;PROCESSING&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Chemin(guid) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>guid</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet de retourner un chemin de type /rep1/rep2,
+à partir de l'identifiant fourni en paramètre. Cet identifiant est généralement
+généré depuis une liste déroulante 'cf: ChampListe' grâce à la fonction
+Formulaire.<b>&nbsp;</b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+DeplaceVers(<b>Chemin</b>(Formulaire(&quot;destination&quot;)))</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><b><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>EstNumeric(valeur) :</span></b><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'> </span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>valeur</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine/numeric</span><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction retourne <b>oui </b>si la valeur passée en
+paramètre est de type numérique.<b>&nbsp;</b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span lang=EN-GB
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:purple'>Exemple
+:&nbsp;</span></u><span lang=EN-GB style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+if(<b>EstNumeric</b>(Formulaire(&quot;montantHT&quot;)),ConvertieVers(Formulaire(&quot;montantHT&quot;),&quot;numeric&quot;),&quot;goto
+Error&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>EcrireDansHistorique(message) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>message</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet d'écrire un message dans l'historique du
+fichier.<b>&nbsp;</b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>EcrireDansHistorique</b>(&quot;Document validé par :&quot; +
+Utilisateur(UtilisateurEnCours(),&quot;Nom&quot;) )</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>NonVide(valeur) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>valeur</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction retourne <b>oui </b>si la valeur passée en
+paramètre n'est pas vide.<b>&nbsp;</b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span lang=EN-GB
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:purple'>Exemple
+:&nbsp;</span></u><span lang=EN-GB style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+if(<b>NonVide</b>(Formulaire(&quot;NumFacture&quot;)),&quot;goto
+process&quot;,&quot;goto Error&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Partager(valeur,separateur,item)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètre :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>valeur</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine,</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> <i>separateur</i> </span><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:firebrick'>chaine</span><span style='font-size:
+9.0pt;font-family:"Segoe UI",sans-serif;color:black'>, <i>item</i> </span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet de partager la chaine de caractère.<b>&nbsp;</b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple : <br>
+</span></u><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Affect(&quot;client&quot;<b>,Partager(</b>NomFichier(non),&quot;_&quot;,1))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>SendMail(destinataire(s),objet,corps)
+:</span></b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:mediumblue'><br>
+<br>
+Paramètres :</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;<i>destinataire(s)</i>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>objet</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>corps</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: La fonction sendmail supporte dans le paramètre&nbsp;<b>destinataire(s)</b>&nbsp;des
+mails multiples séparés par un caractère du type &quot;;&quot;. Elle supporte aussi
+une liste d'utilisateurs internes qui sont caractérisés par leur guid. Il peut
+être utile par exemple de la combiner avec la fonction&nbsp;<b>UtilisateursDuRepertoire</b>.
+Le paramètre corps supporte les expressions encadrées par&nbsp;<b>{},&nbsp;</b>l'expression
+ainsi encadrée sera évaluée. Le nom de l'émetteur sera Workflow.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>sendmail</b>(&quot;utilisateur@domaine.com&quot;,&quot;Commande en
+cours&quot;,&quot;Votre commande a été traitée par notre service client.&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Windows(titre,action,message) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>titre</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>action</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>(&quot;reload,&quot;&quot;timer&quot;),</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>message</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Affiche une fenêtre POP-Up qui permet d'informer l'utilisateur
+du résultat de l'action qu'il a fait<b>.&nbsp;</b>Le paramètre type peut avoir
+deux valeurs &quot;reload&quot; ou &quot;timer&quot;. Si vous choisissez
+reload, cela permet de recharger la fenêtre et si vous choisissez
+&quot;timer&quot;, le message sera affiché pendant 3 secondes.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>Windows</b>(&quot;Lancement du traitement&quot;,&quot;timer&quot;,&quot;Vous
+avez validé le dossier de vente&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><a name=chap7><b><u><span
+style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:black'>7)
+Fonctions pour ProSuite</span></u></b></a></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>CreeEvtProPlanning
+(date,calendrier,description,emails_Invitations)&nbsp;:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>date</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>date,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>calendrier</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>description</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>emails_Invitations</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:blue'><br>
+Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet de créer dans le calendrier ProPlanning
+donné en paramètre, un évènement sur la journée dont la date est définie par le
+paramètre date. La description de l'évènement est donnée via le paramètre
+description. Il est possible de donner une liste d'emails pour leur envoyer des
+invitations, les emails de la liste doivent être séparés par &quot;;&quot;.</span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'> </span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+CreeEvtProPlanning(now()+340,&quot;Contrats&quot;,&quot;Vous devez vérifier le
+contrat XXXXX&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>PourRecherche
+(type,parameters)&nbsp;:</span></b><span style='font-size:12.0pt;font-family:
+"Times New Roman",serif'> </span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>type</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine,</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:darkorange'> </span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>parameters</span></i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'> </span><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:firebrick'>liste</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:blue'><br>
+Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction enregistre des métadonnées relatives au document
+pour recherche ultérieure dans ProSearch. Cette fonction s'utilise avec le
+Plug-In Workflow fonction &quot;<b>Documents</b>&quot;. La liste des paramètres
+fonctionne par couple, le premier défini le nom de la métadonnée et le second
+sa valeur.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+PourRecherche(&quot;Factures&quot;,&quot;Montant
+HT&quot;,Formulaire(&quot;montantht&quot;),&quot;Fournisseur&quot;,Formulaire(&quot;fournisseur&quot;))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Tache
+(operation,parameters)&nbsp;:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>operation</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>(&quot;new&quot;,&quot;update&quot;,&quot;delete&quot;),</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'> </span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>parameters</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>liste</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:blue'><br>
+Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction enregistre dans ProSearch des informations dans la
+base documentaire qui sont associées au plug-in Workflow fonction &quot;<b>Mes
+tâches</b>&quot;. Cette fonction est polymorphe et dépend de l'opération passée
+en paramètre.</span><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>
+</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>new </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>:
+     Crée une nouvelle tâche et retourne un identifiant.</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>update</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> :
+     Met à jour une ou plusieurs métadonnées.</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>delete</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> :
+     Supprime la tâche.</span></li>
+</ul>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><b><span lang=EN-GB style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>1- Tache
+(&quot;new&quot;,WF_priority,WF_name,WF_user,WF_groups,WF_limit,WF_step,WF_step_max,WF_comments)
+<br>
+</span></b><span lang=EN-GB style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:mediumblue'><br>
+Paramètres :</span><span lang=EN-GB style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> <i>operation</i> </span><span lang=EN-GB style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:firebrick'>= &quot;new&quot;</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>WF_priority&nbsp; </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>numérique</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>: 1
+     (Faible), 2 (Normal), 3 (Important),4 (Urgent).</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>WF_name&nbsp; </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>:
+     Nom du Workflow s'affichant dans les résultats en haut dans le titre.</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>WF_groups&nbsp; </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>:
+     Chaîne représentant le groupe ou la personne habilité au traitement de
+     cette étape.</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>WF_step_name&nbsp; </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>:
+     Nom de l'étape en cours.</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>WF_limit&nbsp; </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>date</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>:
+     date limite d'exécution.</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>WF_step&nbsp; </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>numérique</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>:
+     Numéro de l'étape en cours.</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>WF_step_max&nbsp; </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>numérique</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>:
+     Nombre maximal d'étapes.</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>WF_comments&nbsp; </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>:
+     Commentaires à afficher.</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+Affect(&quot;WF_Task_ID&quot;,Tache(&quot;new&quot; ,priority,&quot;Gestion des
+documents entrants&quot;,&quot;Tous&quot;,&quot;à
+traiter&quot;,ConvertirVers(Formulaire(&quot;expiration&quot;),&quot;date&quot;),1,2,Formulaire(&quot;commentaires&quot;)))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'><br>
+</span><b><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>2- Tache (&quot;update&quot;,WF_Task_ID,parameters) <br>
+</span></b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:mediumblue'><br>
+Paramètres :</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> <i>operation</i> </span><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:firebrick'>= &quot;update&quot;,&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>WF_Task_ID</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine, </span><i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'>parameters</span></i><span style='font-size:
+9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>liste</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:blue'><br>
+Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Permet de mettre à jour une tâche avec les paramètres à
+modifier. WF_Task_ID est l'identifiant généré lors de la création. </span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+Tache(&quot;update&quot; ,WF_Task_ID,&quot;wf_step_name&quot;,&quot;En
+cours&quot;,&quot;wf_comments&quot;,&quot;Traitement en cours par l'utilisateur
+: &quot; + Utilisateur(UtilisateurEnCours(),&quot;nom&quot;),&quot;wf_groups&quot;,Utilisateur(UtilisateurEnCours(),&quot;nom&quot;))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>3- Tache
+(&quot;delete&quot;,WF_Task_ID) <br>
+</span></b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:mediumblue'><br>
+Paramètres :</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> <i>operation</i> </span><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:firebrick'>= &quot;update&quot;,&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>WF_Task_ID</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> </span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'><br>
+Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Permet de supprimer une tâche dont l'identifiant est WF_Task_ID.
+</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+Tache(&quot;update&quot; ,WF_Task_ID,&quot;wf_step_name&quot;,&quot;En
+cours&quot;,&quot;wf_comments&quot;,&quot;Traitement en cours par l'utilisateur
+: &quot; +
+Utilisateur(UtilisateurEnCours(),&quot;nom&quot;),&quot;wf_groups&quot;,Utilisateur(UtilisateurEnCours(),&quot;nom&quot;))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:normal'><a name=chap8><b><u><span
+style='font-size:13.5pt;font-family:"Segoe UI",sans-serif;color:black'>8)
+Fonctions pour le formulaire</span></u></b></a></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Le formulaire est ce que
+l'utilisateur voit lorsqu'il appuie sur Action. Les fonctions ci-dessous
+permettent de le générer. Les éléments apparaissent les uns sous les autres
+dans l'ordre de leur apparition.</span><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'><br>
+<br>
+</span><b><u><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>8.1 Les fonctions pour la création d'un formulaire</span></u></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><b><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>ChampTexte(nom,label,valeurParDefaut,obligatorie) :</span></b><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'> </span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'><br>
+Paramètres :</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>&nbsp;<i>nom</i>&nbsp;</span><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>,&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>label</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>,&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>valeurParDefaut</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>obligatoire</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>(oui,non)</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:blue'><br>
+Fonction&nbsp;:</span><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>Créer un élément de type champ de formulaire permettant de saisir
+une valeur. Le paramètre&nbsp;<b>nom</b>&nbsp;est celui qui doit être utilisé
+dans la fonction Formulaire pour récupérer la valeur saisie par l'utilisateur<b>.&nbsp;</b>Le
+paramètre&nbsp;<b>label&nbsp;</b>contient le texte à afficher à gauche du champ
+de formulaire. Le paramètre&nbsp;<b>valeurParDefaut&nbsp;</b>permet de remplir
+le champ avec une valeur prédéfinie. Ce champ sera utilement alimenté par une
+variable dans le cas de la reprise d'une valeur préexistante. Le
+paramètre&nbsp;<b>obligatoire</b>&nbsp;informe le système s'il doit faire une
+vérification sur ce champ, c'est-à-dire s'il doit contenir une valeur.<u><br>
+<br>
+<b>REMARQUE :</b></u>&nbsp;Si la valeur par défaut est de type date alors le
+Champ se transformera automatiquement en un DatePicker permettant de
+sélectionner une date via un calendrier.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>ChampTexte(&quot;montantHT&quot;,&quot;Montant
+Hors Taxe&quot;,&quot;&quot;,oui)<br>
+ChampTexte(&quot;expiration&quot;,&quot;Expire à la date :&quot;,Date(),oui)
+&gt; défini un champ de permettant de sélectionner une date.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>ChampListe(nom,label,editable,valeursParDefaut,obligatorie)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramétres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>nom</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>,&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>label</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>,&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>editable</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>(&quot;oui&quot;,&quot;non&quot;),</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>valeursParDefaut</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>obligatoire</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>(oui,non)</span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Créer un élément de type liste déroulante.&nbsp;Le
+paramètre&nbsp;<b>nom</b>&nbsp;est celui qui doit être utilisé dans la fonction
+Formulaire pour récupérer la valeur associée.&nbsp;Le paramètre&nbsp;<b>label&nbsp;</b>contient
+le texte à afficher à gauche du champ de formulaire.<br>
+Le paramètre&nbsp;<b>valeurParDefaut&nbsp;</b>possède plusieurs possibilités :</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Lorsqu'il s'agit d'une
+     suite de valeurs séparées par&nbsp;<b>;&nbsp;</b>c'est cette liste qui va
+     être affichée triée par ordre alphabétique.</span></li>
+ <li class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Pour afficher la liste des
+     utilisateurs, il faut utiliser la séquence &nbsp;&quot;<b>['utilisateurs']</b>&quot;
+     qui affichera tous les utilisateurs. S'il on veut afficher les
+     utilisateurs d'un groupe en particulier il faut utiliser la séquence :
+     &quot;<b>['utilisateur','nomDuGroupe']</b>&quot;. ATTENTION ! lors de la
+     récupération de l'utilisateur sélectionné, il faut utiliser une fonction
+     spéciale pour récupérer son nom ou email. De cette manière&nbsp;<b>Utilisateur(Formulaire(&quot;nomChampListe&quot;),&quot;email&quot;)</b>&nbsp;par
+     exemple.</span></li>
+ <li class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Pour afficher la liste des
+     répertoires,&nbsp;il faut utiliser la séquence &nbsp;&quot;<b>['répertoires','/Chemin']</b>&quot;
+     où /Chemin est le chemin à partir duquel la fonction va commencer à
+     construire la structure des répertoires. Le niveau de profondeur est fixé
+     à 3.</span></li>
+ <li class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Pour utiliser des données
+     externes stockées pour ce champ, il faut utiliser la séquence &quot;<b>['db']</b>&quot;
+     ou &quot;<b>['db','valeur']</b>&quot;. Le deuxième paramètre permet de
+     positionner la liste sur une valeur. </span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>ChampListe(&quot;societe&quot;,&quot;Société
+:&quot;,oui,societe_encours,oui)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Commentaires(nblignes) :</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Paramétres : </span><i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'>nblignes </span></i><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>numeric</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:blue'><br>
+Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet de créer un champ spécial couramment
+utilisé, le champ de commentaires. Il y a juste un seul paramètre à
+fournir&nbsp;: le nombre de lignes. Le champ de formullaire associé est
+prédéfini : <b>commentaires</b>.&nbsp; </span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'><br>
+Exemple : </span></u><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+Commentaires(4)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>CreerListe(fichier,séparateur,colonne,dbname,entête,trie)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramétres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>fichier</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:darkorange'>, </span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>séparateur</span></i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'> </span><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>, </span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>colonne</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>numeric</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>, </span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>dbname</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'> </span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>entête</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>(oui,non)</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>trie</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>(oui,non)</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'><br>
+Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet à partir d'un fichier <b>CSV </b>d'alimenter
+une source de données pour le <b>champ liste</b> passé en paramètre <b>dbname</b>.
+Le chemin vers le fichier CSV (chemin absolu) est passé dans le paramètre <b>fichier</b>,
+les caractéristiques du fichier CSV sont :</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Séparateur :</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> Le
+     caractère de séparation des données par exemple ;</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Colonne :</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> L
+     colonne qui doit être importée&nbsp;?</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Entête :</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> Le
+     fichier dispose-t-il d'un entête (afin de l'ignorer lors de
+     l'importation)&nbsp;?</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>Trie :</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> Les
+     données doivent-elles être triées à posteriori&nbsp;?</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple : </span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+CreerListe(&quot;/data/mesclients.csv&quot;,&quot;;&quot;,1,&quot;societe&quot;,non,oui)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>PDFViewer(dimension) :</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;line-height:normal'><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:blue'>Paramétres
+: </span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>dimention </span></i><i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:firebrick'>numeric</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:blue'><br>
+Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet de visualiser le document de type
+uniquement PDF en cours de traitement. Suivant le paramétrage de la fonction <b>SetParams(),</b>
+la dimension représente la hauteur en pixel (valeur par défaut) ou la largeur
+si le mode <b>pdfAgauche </b>est <b>oui</b>.&nbsp; </span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple : </span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+PDFViewer(600)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>SetParams(titre,largeur,hauteur,pdfAgauche)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>titre</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>largeur</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>numérique,&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>hauteur</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>numérique,
+</span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>pdfAgauhe</span></i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> </span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>optionnel (oui,non)<br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Permet de changer les paramètres par défaut de la fenêtre, le
+titre et sa hauteur et largeur. Le paramètre <b>pdfAgauche</b> n'est pas
+obligatoire. S'il est à <b>oui,</b> la fenêtre affichera automatiquement le PDF
+(si la commande PDFViewer est utilisée) à gauche et les champs s'aligneront à
+droite du document. A noter que la valeur de la fonction PDFViewer, passe de la
+définition de la hauteur à la largeur.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple : </span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>SetParams</b>(&quot;Votre Workflow est formidable&quot;,800,600,oui)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Texte(texte,alignement) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>texte</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>alignement</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>(&quot;gauche&quot;,&quot;centre&quot;,&quot;droit&quot;)</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Créer un élément de type Texte, le paramètre&nbsp;<b>Texte</b>&nbsp;contient
+la chaine à afficher qui peut utiliser des TAG HTML. Le paramètre&nbsp;<b>Alignement</b>&nbsp;&nbsp;doit
+contenir la valeur&nbsp;<i>gauche</i>,&nbsp;<i>centre</i>&nbsp;ou&nbsp;<i>droit</i>&nbsp;qui
+définira la position d'affichage.<b>&nbsp;</b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>Texte</b>(&quot;Formulaire de Saisie&quot;,&quot;centre&quot;)</span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
+<br>
+</span><b><u><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>8.2 Les fonctions pour le traitement du formulaire</span></u></b></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Formulaire(nomDuChamp) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>nomDuChamp</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction retourne une chaine représentant la valeur saisie
+par l'utilisateur dans le champ passé en paramètre.<b>&nbsp;</b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>Formulaire</b>(&quot;societe&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>RafraichirProShare(option) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp; <i>option</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>(oui,non)</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Si <b>option </b>est à <b>non</b>, Proshare ne sera pas mis à
+jour, ce qui permet de garder la sélection du fichier. Cette fonction s'utilise
+en conjonction avec la fonction Windows option reload.<b> </b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>RafraichirProShare</b>(non)<br>
+Windows(&quot;Rechargement&quot;,&quot;reload&quot;,&quot;Nous rechargeons la
+page....&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><u><span style='font-size:
+13.5pt;font-family:"Segoe UI",sans-serif;color:black'>9) Timers &amp;
+Evénements</span></u></b><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+<br>
+Les timers sont des évènements périodiques qui permettent d'exécuter des
+commandes périodiquement. Il existe 2 types de timers :</span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'> </span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>TIMER 1M </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>:
+     S'exécute toutes les <b>minutes</b>.</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>TIMER 1H</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> :
+     S'exécute toutes les <b>heures</b>.</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>TIMER 1D</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> : S'exécute
+     tous les <b>jours</b>.</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Les autres événements sont&nbsp;
+:</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>ADD</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> :
+     Se déclenche sur l'ajout d'un fichier sur le répertoire considéré</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>UPDATE</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> :
+     Se déclenche lors de la mise à jour d'un fichier</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>DELETE</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> :
+     Se déclenche uniquement après la fonction Supprimer(). La suppression
+     manuelle d'un fichier ne le déclenche pas !</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:normal'><b><u><span style='font-size:
+12.0pt;font-family:"Segoe UI",sans-serif;color:black'>9.1 Les variables<br>
+</span></u></b><b><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+evtUserGUID <i>Variable</i>:</span></b><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'><br>
+Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette variable contient l'identifiant de l'utilisateur ayant
+déclenché cet évènement. Il peut être pratique de la stocker pour envoyer un
+email après un traitement.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+Affect(&quot;Initiateur&quot;,evtUserGUID)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>filter <i>Variable</i>:</span></b></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal'><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Avant d'exécuter les commandes principales du timer, l'exécution
+d'un système de filtre permet d'optimiser l'usage des timers. Pour déterminer si
+le résultat du filtrage autorise ou pas l'exécution des commandes principales,
+le moteur utilise la variable interne <b>filter</b>. En fonction de sa valeur
+(oui,non), les commandes sont exécutées ou pas :</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>oui </span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>: Le
+     moteur exécute les commandes principales.</span></li>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>non</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> :
+     Le moteur stoppe l'exécution des commandes pour cet évènement.</span></li>
+</ul>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+Affect(&quot;filter&quot;,oui)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><u><span style='font-size:
+12.0pt;font-family:"Segoe UI",sans-serif;color:black'>9.2 Les fonctions de
+filtrage</span></u></b></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>AutoriserExtension(liste_extensions)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>liste_extensions</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine liste</span><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne oui si le fichier courant contient une des extensions
+passées en paramètre. Cette fonction permet simplement de filtrer l'évènement
+sur des fichiers d'un ensemble d'extensions en particulier.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple : </span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+Affect(&quot;filter&quot;,AutoriserExtension(&quot;PDF&quot;))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>InterdireExtension(liste_extensions)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>liste_extensions</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine liste</span><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Retourne oui si le fichier courant ne contient pas une des
+extensions passées en paramètre. Cette fonction permet simplement de filtrer
+l'évènement sur tous les fichiers sauf ceux spécifiés.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple : </span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+Affect(&quot;filter&quot;,InterdireExtension(&quot;TMP&quot;,&quot;CHK&quot;,&quot;BAK&quot;))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'><br>
+</span><b><u><span style='font-size:12.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>9.3 Les fonctions de gestion des Timers</span></u></b></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Executer(date,label) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<i>date</i>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>date</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>,&nbsp;</span><i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>label</span></i><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&nbsp;</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Permet d'exécuter des commandes en mode différé à la date
+définie par le paramètre date. Les commandes exécutées sont celles qui
+commencent au label défini par le paramètre label, la fin des commandes devant
+se terminer par End.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+...<br>
+Executer(&quot;10/12/2016&quot;,&quot;CHECK_CONTRAT&quot;)<br>
+...<br>
+End</span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>:CHECK_CONTRAT<br>
+sendmail(email_compta,&quot;contrat à vérifier&quot;,&quot;Le contrat
+&quot;+fichier_lien()+&quot; doit arriver à échéance le 20/12/2016 veuillez
+vérifier si nous devons le renouveler&quot;)<br>
+End</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>ExecuterTimer(IdTimer) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>IdTimer</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Permet d'attacher le fichier courant à un timer. Les commandes
+du timer seront exécutées en considérant le fichier courant.<b> </b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+ExecuteTimer(&quot;649f3d8d-31e2-a75d-88d7-157f9869276d&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>StopTimer(IdTimer) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>IdTimer</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Détache le fichier du timer donné en paramètre.<b> </b></span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+StopTimer(&quot;649f3d8d-31e2-a75d-88d7-157f9869276d&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><u><span style='font-size:
+13.5pt;font-family:"Segoe UI",sans-serif;color:black'>10) Analyse du document</span></u></b></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;line-height:normal'><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Les
+fonctions d'analyses permettent d'extraire automatiquement des informations
+liées à des types de documents.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Analyse(doctype,paramètres) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>doctype</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine,</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:darkorange'> </span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>paramètres</span></i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'> </span><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:firebrick'>liste</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet d'analyser les documents en fonction de
+leur type passé en paramètre dans <b>doctype</b>.<b> </b>Les autres paramètres
+permettent de donner des informations complémentaires. Les documents
+disponibles pour analyse sont :</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>&nbsp; Factures : <b>doctype</b>=&quot;</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:#3333FF'>factures</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&quot;,
+     paramètres : <i>numéroTVAintracom</i> </span><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,</span><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:darkorange'>
+     </span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+     color:black'>TauxTVA&nbsp; </span></i><i><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:firebrick'>optionnel numeric</span></i><i><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <br>
+     </span></i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+     color:black'>Le <b>numéroTVAintracom</b> est celui de la société qui analyse
+     les documents. Cela permet d'être en mesure d'exclure des résultats son
+     propre numéro dans la recherche et ainsi d'augmenter la pertinence. Le
+     TauxTVA est optionnel. Il permet d'ajouter un taux non pris en compte
+     automatiquement par le système d'analyse. Les résultats fournis par
+     l'analyse sont :</span></li>
+ <ul style='margin-top:0cm' type=circle>
+  <li class=MsoNormal style='line-height:normal'><b><i><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>tva_intracommunautaire</span></i></b><i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> : </span></i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Retourne
+      le numéro de TVA intracommunautaire de la facture, s'il existe.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><i><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>pays</span></i></b><i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> : </span></i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Le
+      pays de l'émetteur de la facture.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><i><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>rcs</span></i></b><i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> : </span></i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>le
+      RCS ou l'identifiant de registre du commerce pour la société.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><i><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>taux_tva</span></i></b><i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> : </span></i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Le
+      taux de TVA de cette facture.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><i><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>montantht </span></i></b><i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>: </span></i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Le
+      montant hors taxes de cette facture.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><i><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>montantttc</span></i></b><i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> : </span></i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Le
+      montant TTC de cette facture.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><i><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>date</span></i></b><i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> : </span></i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>La
+      date de la facture.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><i><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>numero</span></i></b><i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> : </span></i><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Le
+      numéro de la facture.</span></li>
+ </ul>
+</ul>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;line-height:normal'><u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:purple'>Exemple
+:&nbsp;</span></u><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+<b>Analyse</b>(&quot;facture&quot;,&quot;FR75430163688&quot;)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Apprendre(identifiant,champ,valeur,supprime)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>identifiant</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine,</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:darkorange'> </span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>champ</span></i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> </span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine, </span><i><span style='font-size:9.0pt;font-family:
+"Segoe UI",sans-serif;color:black'>valeur</span></i><span style='font-size:
+9.0pt;font-family:"Segoe UI",sans-serif;color:black'> </span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:firebrick'>chaine,
+</span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>supprime</span></i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> </span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>(oui,non)</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet au système d'apprendre par l'exemple.
+Certains champs nécessitent un apprentissage pour être reconnus car il n'existe
+pas pour eux une structure permettant à l'avance de les reconnaitre. C'est par
+exemple le cas pour le numéro de facture. Il est lié à chaque fournisseur et il
+n'existe pas de règle pour trouver à priori cette valeur. La fonction est très
+simple à utiliser. Il suffit pour une société donnée, de définir un <b>identifiant
+</b>(pour les sociétés française le <b>RCS</b>) dans le paramètre du même nom,
+puis de spécifier le <b>champ </b>nécessitant un apprentissage, dans notre
+exemple numéro. Pour finir, saisir la <b>valeur &nbsp;</b>manuellement par
+l'opérateur. Le système, à partir de cet exemple et des autres, va essayer de
+trouver une règle de reconnaissance de façon automatique. Dans le cas où une
+valeur contiendrait par exemple une erreur de saisie, le paramètre <b>supprime </b>affecté
+à oui, permet de le supprimer. <br>
+<br>
+Les champs avec apprentissage possible, reliés à la fonction Analyse() sont :</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>doctype</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>=&quot;</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:#3333FF'>factures</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&quot;</span></li>
+ <ul style='margin-top:0cm' type=circle>
+  <li class=MsoNormal style='line-height:normal'><b><i><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>numero</span></i></b><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> :
+      Apprentissage des numéros de factures.</span></li>
+ </ul>
+</ul>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+<b>Apprendre</b>(ResultatRecherche(&quot;analyse:facture&quot;,&quot;rcs&quot;),&quot;factures:numero&quot;,Formulaire(&quot;numfacture&quot;))</span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif'>&nbsp;</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>ResultatRecherche(fonctionderecherche,champ)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>fonctionderecherche</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine,</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:darkorange'> </span><i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>champ</span></i><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'> </span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet de récupérer les résultats des fonctions
+de recherche <b>Analyse()</b> &amp; <b>Trouve()</b>. Le premier paramètre
+permet de définir la fonction et le second le champ à lire. La liste des
+fonctions de recherche supportées avec leurs champs, est :</span></p>
+
+<ul style='margin-top:0cm' type=disc>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>fonctionderecherche</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>=&quot;</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:#3333FF'>analyse:facture</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&quot;</span></li>
+ <ul style='margin-top:0cm' type=circle>
+  <li class=MsoNormal style='line-height:normal'><b><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>tva_intracommunautaire</span></b><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> :
+      Numéro de TVA intracommunautaire de la facture.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>taux_tva </span></b><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>:
+      Taux de TVA trouvé par le moteur de recherche lors de l'analyse.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>pays :</span></b><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>
+      Pays détecté dans le numéro de TVA intracommunautaire.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>rcs :</span></b><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> Le
+      numéro RCS de la société si celle-ci est Française.</span></li>
+  <li class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+      font-family:"Segoe UI",sans-serif;color:black'>&nbsp;<b>montantht : </b>Le
+      montant Hors Taxe de la facture.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>montantttc : </span></b><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Le
+      montant TTC de la facture basé sur le principe que l'écart entre les deux
+      valeurs (HT &amp; TTC) est compatible avec un taux de TVA disponible. Il
+      est possible d'ajouter des montants de TVA non conventionnel lors de
+      l'analyse.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>date : </span></b><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>La
+      date la plus probable de la facture. </span></li>
+  <li class=MsoNormal style='line-height:normal'><b><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>numero : </span></b><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>Le
+      numéro de la facture déduit sur la base d'un apprentissage par l'exemple
+      en utilisant la fonction <b>Apprendre()</b>.</span></li>
+ </ul>
+ <li class=MsoNormal style='line-height:normal'><b><span style='font-size:9.0pt;
+     font-family:"Segoe UI",sans-serif;color:black'>fonctionderecherche</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>=&quot;</span><b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:#3333FF'>trouve</span></b><span
+     style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>&quot;</span></li>
+ <ul style='margin-top:0cm' type=circle>
+  <li class=MsoNormal style='line-height:normal'><b><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>rcs :</span></b><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> Le
+      numéro RCS de la société si celle-ci est Française.</span></li>
+  <li class=MsoNormal style='line-height:normal'><b><span style='font-size:
+      9.0pt;font-family:"Segoe UI",sans-serif;color:black'>regexp : </span></b><span
+      style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>le
+      résultat de l'expression régulière. </span></li>
+ </ul>
+</ul>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :&nbsp;</span></u><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'><br>
+ChampTexte(&quot;numfacture&quot;,&quot;Numéro de Facture :&quot;,<b>ResultatRecherche</b>(&quot;analyse:facture&quot;,&quot;numero&quot;),oui)</span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>SupprimeApprentissage(identifiant)
+:</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>identifiant</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction supprime les données d'apprentissage pour un
+identifiant donné.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :</span></u></p>
+
+<p class=MsoNormal style='margin-bottom:12.0pt;line-height:normal'><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'>:DELETE_RECORD<br>
+<b>SupprimerApprentissage</b>(ResultatRecherche(&quot;analyse:facture&quot;,&quot;rcs&quot;))<br>
+Windows(&quot;Suppression
+apprentissage&quot;,&quot;timer&quot;,&quot;Suppression des données pour
+d'apprentissage&quot;)<br>
+end </span></p>
+
+<p class=MsoNormal style='line-height:normal'><b><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif;color:black'>Trouve(champ) :</span></b></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:mediumblue'>Paramètres :</span><span
+style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;color:black'> <i>champ</i>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:firebrick'>chaine</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'><br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:blue'>Fonction&nbsp;</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>: Cette fonction permet de rechercher une valeur en particulier ou
+le résultat d'une expression régulière si le champ ne correspond à aucun mot
+clef connu.</span></p>
+
+<p class=MsoNormal style='line-height:normal'><u><span style='font-size:9.0pt;
+font-family:"Segoe UI",sans-serif;color:purple'>Exemple :</span></u><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif'><br>
+<br>
+</span><span style='font-size:9.0pt;font-family:"Segoe UI",sans-serif;
+color:black'>if(if(<b>Trouve</b>(&quot;RCS&quot;),Dictionnaire(&quot;societe&quot;,ResultatRecherche(&quot;trouve&quot;,&quot;rcs&quot;)),&quot;&quot;)=&quot;&quot;,&quot;goto
+ASK_DATA&quot;,&quot;goto NEXT_STEP&quot;)<br>
+end<br>
+<br>
+:ASK_DATA<br>
+DeplacerVers(&quot;../need infos&quot;)<br>
+sendmail(evtUserGUID,&quot;Infos requises sur votre document :
+&quot;+fichier_nom(),mail_info_data)<br>
+end</span></p>
+
+<p class=MsoNormal style='line-height:normal'><span style='font-size:12.0pt;
+font-family:"Segoe UI",sans-serif'>...</span></p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+</div>
+
+</body>
+
+</html>

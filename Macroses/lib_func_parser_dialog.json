@@ -1,0 +1,12 @@
+{
+    "ob_board": "0", 
+    "timer_guid": "", 
+    "name": "lib_func_parser_dialog", 
+    "custom_event_guid": "", 
+    "class_name": "", 
+    "is_button": "0", 
+    "guid": "0afa9cdf-50ae-481e-9200-0f70bebc327e", 
+    "type": "library", 
+    "page": "", 
+    "description": "All the functions that can be used by the parser including Form generation functions."
+}

@@ -1,0 +1,12 @@
+{
+    "ob_board": "0", 
+    "timer_guid": "", 
+    "name": "Lib_EAC_Object", 
+    "custom_event_guid": "", 
+    "class_name": "", 
+    "is_button": "0", 
+    "guid": "93d4b662-8125-4487-9148-a7ad5ab5de56", 
+    "type": "library", 
+    "page": "", 
+    "description": "Object model to create EAC XML data"
+}

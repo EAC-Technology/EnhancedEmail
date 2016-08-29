@@ -1,0 +1,12 @@
+{
+    "ob_board": "0", 
+    "timer_guid": "", 
+    "name": "lib_dialog_2", 
+    "custom_event_guid": "", 
+    "class_name": "", 
+    "is_button": "0", 
+    "guid": "3893dc30-0526-4d2b-875e-b9178333e49b", 
+    "type": "library", 
+    "page": "", 
+    "description": "The object library to easly build Form"
+}

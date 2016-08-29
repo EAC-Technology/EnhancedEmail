@@ -1,0 +1,12 @@
+{
+    "ob_board": "0", 
+    "timer_guid": "", 
+    "name": "lib_prosearch", 
+    "custom_event_guid": "", 
+    "class_name": "", 
+    "is_button": "0", 
+    "guid": "41e2e5a7-2dfd-46f7-880c-a18efe63261b", 
+    "type": "library", 
+    "page": "", 
+    "description": "ProSerch connexion library."
+}
