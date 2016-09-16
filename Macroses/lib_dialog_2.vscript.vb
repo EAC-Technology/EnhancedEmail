@@ -203,6 +203,23 @@ class LiveSearch: inherits component
     
 end class
 
+class FileUpload: inherits component
+
+    Sub init
+      mybase.SetTypeName("FileUpload")
+      mybase.setProp("label","")
+    end sub
+    
+    sub label(value)
+      mybase.setProp("label",value)
+    end sub
+
+    function check(byref globalContext)
+      check=true
+    end function
+    
+end class
+
 class RichTextArea: inherits component
 
     Sub init
@@ -1775,7 +1792,10 @@ class XMLScreen
 				
 			case "richtextarea"
                 set component(Name) = New RichTextArea	
-			             
+
+			case "fileupload"
+                set component(Name) = New FileUpload
+
             case else
                 typeFound = false
         end select
