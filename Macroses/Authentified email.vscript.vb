@@ -58,6 +58,7 @@ set MyForms = New XMLDialogBuilder
   'MyForms.Screen("Std Composer").Component("fromemail").label("From :")
   MyForms.Screen("Std Composer").addComponent("toemail","livesearch")
   MyForms.Screen("Std Composer").Component("toemail").label("To :")
+  MyForms.Screen("Std Composer").Component("toemail").sourceURI("/recipientlivesearch")
   MyForms.Screen("Std Composer").addComponent("subject","TextBox")
   MyForms.Screen("Std Composer").Component("subject").label("Subject :")
   MyForms.Screen("Std Composer").addComponent("message","RichTextArea")
