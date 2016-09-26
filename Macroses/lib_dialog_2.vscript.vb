@@ -562,9 +562,9 @@ class BtnGroup: inherits component
                     case else
                       buttonsHintPos = "top"
                   end select
-                  html.write ("<td align=""center""><div class=""hint--"&buttonsHintPos&" hint--info"" data-hint="""&buttonsHint(elt)&"""><img style='cursor: pointer;' src='http://" & host(0) & resources.public_link(elt) & "' name=""" & nextstep & """ onclick=" & action & "></div></td>")
+                  html.write ("<td align=""center""><div class=""hint--"&buttonsHintPos&" hint--info"" data-hint="""&buttonsHint(elt)&"""><img style='cursor: pointer;' src='//" & host(0) & resources.public_link(elt) & "' name=""" & nextstep & """ onclick=" & action & "></div></td>")
                 else
-                  html.write ("<td align=""center""><img style='cursor: pointer;' src='http://" & host(0) & resources.public_link(elt) & "' name=""" & nextstep & """ onclick=" & action & "></td>")
+                  html.write ("<td align=""center""><img style='cursor: pointer;' src='//" & host(0) & resources.public_link(elt) & "' name=""" & nextstep & """ onclick=" & action & "></td>")
                 end if
             end if
             i=i+1
@@ -691,9 +691,9 @@ class TabPicture
     host = system.application_hosts
     action = "'setOperationStep(""" & nextstep & """);$(""form.xml-dialog-form"").submit();'"
     if incell then
-      render = "<img " & SimpleIf(nextstep<>"","style='cursor: pointer;'","") & " src='http://" & host(0) & resources.public_link(picname) & "'  " & SimpleIf(nextstep<>"","onclick=" & action,"") & " >"
+      render = "<img " & SimpleIf(nextstep<>"","style='cursor: pointer;'","") & " src='//" & host(0) & resources.public_link(picname) & "'  " & SimpleIf(nextstep<>"","onclick=" & action,"") & " >"
     else
-      render = "<tr><td align='" & align & "' colspan='2' ><img " & SimpleIf(nextstep<>"","style='cursor: pointer;'","") & " src='http://" & host(0) & resources.public_link(picname) & "' " & SimpleIf(nextstep<>"","onclick=" & action,"") & "  ></td></tr>"
+      render = "<tr><td align='" & align & "' colspan='2' ><img " & SimpleIf(nextstep<>"","style='cursor: pointer;'","") & " src='//" & host(0) & resources.public_link(picname) & "' " & SimpleIf(nextstep<>"","onclick=" & action,"") & "  ></td></tr>"
     end if
   end function
 end class
@@ -1105,7 +1105,7 @@ class TabDropDown
       'action = "'setInternalOperationStep(""" & replace(ToJson(Dictionary("step","manageDropDown","data",name,"laststep",mainStep)),"""","""""") & """);setOperationStep(""Internal"");$(""form.xml-dialog-form"").submit();'"
       sessionDictionary("_internalData" & "_" & normalize(name))=Dictionary("step","manageDropDown","data",name,"laststep",mainStep)
       action = "'setOperationStep(""Internal>" & normalize(name) & """);$(""form.xml-dialog-form"").submit();'"
-      codeEditBefore = "<div class='hint--top hint--info' data-hint='Editer le champ'><img style='cursor: pointer;' src='http://" & host(0) & resources.public_link("crayon.png") & "' onclick=" & action & ">&nbsp;&nbsp;"
+      codeEditBefore = "<div class='hint--top hint--info' data-hint='Editer le champ'><img style='cursor: pointer;' src='//" & host(0) & resources.public_link("crayon.png") & "' onclick=" & action & ">&nbsp;&nbsp;"
       codeEditAfter = "</div>"
     end if
     
@@ -1273,7 +1273,7 @@ class TabTextArea
     
     set txtAreaCode = Buffer.create
     'if editor then
-    '  txtAreaCode.write("<script src=""http://tinymce.cachefly.net/4.0/tinymce.min.js""></script>")
+    '  txtAreaCode.write("<script src=""//tinymce.cachefly.net/4.0/tinymce.min.js""></script>")
     'end if
     txtAreaCode.write("<div class='inputFullWidth'" & SimpleIf(Hint="","","class='hint--top hint--info' data-hint='"&Hint&"'") & ">")
     txtAreaCode.write("<textarea class='inputFullWidth" & SimpleIf(isEmpty(className),"", " " & className) & "' "+editoroptions+" rows='"&cstr(row)&"' type='text' name='"&name&"'>"&SimpleIf( isEmpty( value ), defaultValue, value )&"</textarea><span style='font-family: tahoma; font-size: xx-small; color: crimson;' >" & errTxt & "</span>")
@@ -1371,7 +1371,7 @@ class TabHistoryList
           part11 = Month(d) & "/" & Day(d) & "/" & Year(d) & " " & part2
           part12 = Day(d) & "." & Month(d) & "." & Year(d) & " " & part2
           
-          HistoryListCodeCode.write("<tr id=""" & part11 & """><td><div class=""msgheader""><img src='http://" & host(0) & resources.public_link(m("type")) & "'>" & m("who") & " (" & part12 & ")</div>")
+          HistoryListCodeCode.write("<tr id=""" & part11 & """><td><div class=""msgheader""><img src='//" & host(0) & resources.public_link(m("type")) & "'>" & m("who") & " (" & part12 & ")</div>")
           HistoryListCodeCode.write("<div class=""msgcomment"">" & m("msg") & "</div></td></tr>")
           
         next
@@ -1835,7 +1835,7 @@ class XMLScreen
                 component("--DropDownSearchable").SetName("--DropDownSearchable")
                 AppendToArray(compOrder,"--DropDownSearchable")
                 set html = buffer.create
-                html.write("<script type=""text/javascript"" src='http://" & host(0) & resources.public_link("searchit.js") & "'></script>")
+                html.write("<script type=""text/javascript"" src='//" & host(0) & resources.public_link("searchit.js") & "'></script>")
                 html.write("<script type=""text/javascript"">$(document).ready(function() {$(""select"").searchit({ textFieldClass: 'searchbox' });});</script>")
                 html.write("<style type=""text/css""> body {}.searchbox {border:1px solid #456879;border-radius:6px;height: 22px;width: 100%;margin-top: 5px;}</style>")
                 component("--DropDownSearchable").setProp("value",html.getValue)      
@@ -2172,7 +2172,7 @@ Class XMLDialogBuilder
   
         set html = buffer.create
         logger tojson(host)
-        html.write "<script src='http://" & host(0) & resources.public_link("jquery.percentageloader-0.1.min.js") & "'></script>"
+        html.write "<script src='//" & host(0) & resources.public_link("jquery.percentageloader-0.1.min.js") & "'></script>"
         html.write "<style type=""text/css"" media=""screen"" >" & resources.open("jquery.percentageloader-0.1.css").getvalue & "</style>"
         html.write "<script>"
         html.write "$('#o_" & Replace(xml_dialog.containerGUID,"-","_") & "').append( ""<div id='topLoader' style='position: absolute; top: "+posTop+"px; left: "+posLeft+"px;'></div>"" );"
