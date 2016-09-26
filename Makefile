@@ -1,2 +1,2 @@
 all:
-	-python ../plugin2fs/build.py . ../enhacedemail_compiled.xml
+	-python ../plugin2fs/build.py . build/enhacedemail_compiled.xml
