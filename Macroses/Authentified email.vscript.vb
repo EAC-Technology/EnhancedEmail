@@ -58,10 +58,14 @@ set MyForms = New XMLDialogBuilder
   'MyForms.Screen("Std Composer").Component("fromemail").label("From :")
   MyForms.Screen("Std Composer").addComponent("toemail","livesearch")
   MyForms.Screen("Std Composer").Component("toemail").label("To :")
+  MyForms.Screen("Std Composer").Component("toemail").sourceURI("/recipientlivesearch")
   MyForms.Screen("Std Composer").addComponent("subject","TextBox")
   MyForms.Screen("Std Composer").Component("subject").label("Subject :")
   MyForms.Screen("Std Composer").addComponent("message","RichTextArea")
   MyForms.Screen("Std Composer").Component("message").label("Message :")
+  MyForms.Screen("Std Composer").Component("message").height("400")
+  MyForms.Screen("Std Composer").addComponent("attach","FileUpload")
+  MyForms.Screen("Std Composer").Component("attach").label("Attachments :")
   
   MyForms.Screen("Std Composer").addComponent("btns","btngroup")
   MyForms.Screen("Std Composer").Component("btns").addBtn("Send","sendEmail")
@@ -132,9 +136,25 @@ set MyForms = New XMLDialogBuilder
     logger e.get_wholexml()                ' return composed XML as string
     'e.set_events(events)            ' method to set events data, accepts JSON string
                                 ' or dictionary
-    	
+
+    files = Dictionary
+    logger("Attachments: " & args("attach"))
+    if args("attach") <> "" then
+        attach = split(args("attach"), ",")
+        for each a in attach
+'            logger("Attachment: " & a)
+            Set f = xml_dialog.uploadedfile(a)
+'            logger("- name: " & f.name)
+            files(f.name) = f.data
+            f.remove()
+        next
+'        for each f in files
+'            logger(f)
+'        next
+    end if
+    xml_dialog.clearfiles()
+
     toEmails = Appinmail.utils.parseEmails(args)
-     
     for each email in toEmails
         eacviewer_url = e.get_eacviewer_url(Appinmail.utils.currentHost(), email)
     
@@ -148,9 +168,9 @@ set MyForms = New XMLDialogBuilder
         end try
                 
         try
-            e.send(mailbox, email, "", "", args("subject"), "Use promail or link " + eacviewer_url)
+            e.send(mailbox, email, "", "", args("subject"), "Use promail or link " + eacviewer_url, files)
             if login <> email then
-                e.send(mailbox, login, "", "", args("subject"), "Use promail or link " + eacviewer_url)
+                e.send(mailbox, login, "", "", args("subject"), "Use promail or link " + eacviewer_url, files)
             end if
         catch
         end try
