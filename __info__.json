@@ -1,7 +1,7 @@
 {
-    "version": "1.0 B", 
+    "version": "0.1.1", 
     "guid": "5d525ea5-bb1d-4eab-b5c3-77a30b5ebe67", 
-    "description": "This simple plug-in to send usual email.", 
+    "description": "This plug-in for enhance emails by EAC tehnology.", 
     "name": "Enhanced Email", 
-    "author": "NK"
+    "author": "VDOM Research"
 }
